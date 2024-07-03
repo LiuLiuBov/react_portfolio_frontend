@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsTwitter, BsInstagram } from 'react-icons/bs';
-import { FaFacebookF, FaGithub } from 'react-icons/fa';
+import { FaFacebookF, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const SocialMedia = () => {
   return (
@@ -15,6 +15,12 @@ const SocialMedia = () => {
           <FaGithub />
         </a>
       </div>
+      <div>
+        <a href="https://www.linkedin.com/in/liubov-poliakova-b457212b8" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+      </div>
+
     </div>
   );
 };
